@@ -5,10 +5,10 @@ const app = express();
 app.use(express.json());
 
 // Replace with your details
-const FULL_NAME = "chintada_abhishek"; // lowercase
-const DOB = "12092003";                // ddmmyyyy format
-const EMAIL = "abhishek123@vit.ac.in";
-const ROLL_NUMBER = "21BCE1234";
+const FULL_NAME = "Arasavelli Sai Sankar"; // lowercase
+const DOB = "28/03/2005";                // ddmmyyyy format
+const EMAIL = "saishankararasavelli28@gmail.com";
+const ROLL_NUMBER = "222BCE9070";
 
 app.get("/", (req, res) => {
   res.send("✅ Fullstack API is running. Use POST /bfhl");
