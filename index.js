@@ -11,11 +11,11 @@ const ROLL_NUMBER = "222BCE9070";
 
 // Root route for sanity check
 app.get("/", (req, res) => {
-  res.send("✅ Fullstack API is running. Use POST");
+  res.send("✅ Fullstack API is running. Use POST /bfhl");
 });
 
 // Main API endpoint
-app.post('/', (req, res) => {
+app.post('/bfhl', (req, res) => {
   try {
     const data = req.body.data || [];
     
